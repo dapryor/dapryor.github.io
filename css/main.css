@@ -393,51 +393,59 @@ img {
     max-width: 65em; }
 
   .column-1 {
-    width: 8.3333333333%; }
+    width: 8.33333%; }
 
   .column-2 {
-    width: 16.6666666667%; }
+    width: 16.66667%; }
 
   .column-3 {
     width: 25%; }
 
   .column-4 {
-    width: 33.3333333333%; }
+    width: 33.33333%; }
 
   .column-5 {
-    width: 41.6666666667%; }
+    width: 41.66667%; }
 
   .column-6 {
     width: 50%; }
 
   .column-7 {
-    width: 58.3333333333%; }
+    width: 58.33333%; }
 
   .column-8 {
-    width: 66.6666666667%; }
+    width: 66.66667%; }
 
   .column-9 {
     width: 75%; }
 
   .column-10 {
-    width: 83.3333333333%; }
+    width: 83.33333%; }
 
   .column-11 {
-    width: 91.6666666667%; }
+    width: 91.66667%; }
 
   .column-12 {
     width: 100%; } }
+.wrapper, .row {
+  *zoom: 1; }
+  .wrapper:before, .row:before, .wrapper:after, .row:after {
+    content: " ";
+    display: table; }
+  .wrapper:after, .row:after {
+    clear: both; }
+
 h2 {
   font-family: 'Open Sans', sans-serif; }
 
-.header {
-  background: -webkit-linear-gradient(top, #e06868, #d94343);
+header {
+  background: -webkit-linear-gradient(bottom, #e06868, #fefefe);
   /*Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(top, #e06868, #d94343);
+  background: -o-linear-gradient(bottom, #e06868, #fefefe);
   /* For Opera 11.1 0 */
-  background: -moz-linear-gradient(top, #e06868, #d94343);
+  background: -moz-linear-gradient(bottom, #e06868, #fefefe);
   /* Firefox 3.6 to 15 */
-  background: linear-gradient(to top, #e06868, #d94343);
+  background: linear-gradient(to bottom, #e06868, #fefefe);
   /* Standard syntax */
   height: 100vh;
   background-size: cover;
@@ -449,11 +457,22 @@ h2 {
   align-items: center;
   color: white; }
 
-.section {
-  width: 75%;
-  margin: auto; }
-
 .title {
-  font-size: 60px;
-  margin: 0;
+  font-size: 6em;
+  margin: 10px;
   font-family: 'Kaushan Script', cursive; }
+
+#cta {
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 100px; }
+
+#footer {
+  height: 25%;
+  background: #777; }
+  #footer ul {
+    list-style-type: none; }
+
+/*# sourceMappingURL=main.css.map */

@@ -4,8 +4,8 @@ h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.header {
-    @include linear-gradient(top, #e06868, #d94343);
+header {
+    @include linear-gradient(bottom, #e06868, #fefefe);
     height: 100vh;
     background-size: cover;
     margin-bottom: 50px;
@@ -17,13 +17,25 @@ h2 {
     color: white;
 }
 
-.section {
-    width: 75%;
-    margin: auto;
+.title {
+    font-size: 6em;
+    margin: 10px;
+    font-family: 'Kaushan Script', cursive;
 }
 
-.title {
-    font-size: 60px;
-    margin: 0;
-    font-family: 'Kaushan Script', cursive;
+
+#cta {
+    background: #ffffff;
+    @include border-box;
+    margin-bottom: 100px;
+}
+
+#footer {
+    height:25%;
+    background: #777;
+    
+ul {
+    list-style-type: none;
+}
+
 }
