@@ -379,6 +379,10 @@ h2 {
   align-items: center;
   color: white; }
 
+.section {
+  width: 75%;
+  margin: auto; }
+
 .title {
   font-size: 60px;
   margin: 0;
