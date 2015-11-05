@@ -361,8 +361,7 @@ h2 {
   font-family: 'Open Sans', sans-serif; }
 
 .header {
-  background-color: #d94343;
-  background: -webkit-linear-gradient(bottom, #e06868, #d94343);
+  background: -webkit-linear-gradient(top, #e06868, #d94343);
   /*Safari 5.1 to 6.0 */
   background: -o-linear-gradient(top, #e06868, #d94343);
   /* For Opera 11.1 0 */
@@ -384,5 +383,3 @@ h2 {
   font-size: 60px;
   margin: 0;
   font-family: 'Kaushan Script', cursive; }
-
-/*# sourceMappingURL=main.css.map */
