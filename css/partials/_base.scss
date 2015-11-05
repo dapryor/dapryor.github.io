@@ -1,16 +1,10 @@
 //imports
 @import 'normalize';
+@import 'mixins';
 
-//fonts
+//font
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Kaushan+Script);
 
-//mixins
-@mixin linear-gradient($direction, $color-bottom, $color-top) {
-  background: -webkit-linear-gradient($direction,$color-bottom, $color-top); /*Safari 5.1 to 6.0 */
-  background: -o-linear-gradient($direction, $color-bottom, $color-top); /* For Opera 11.1 0 */
-  background: -moz-linear-gradient($direction, $color-bottom, $color-top); /* Firefox 3.6 to 15 */
-  background: linear-gradient(to $direction, $color-bottom, $color-top); /* Standard syntax */
-}
 
 //layouts
 @import 'layouts/home.scss'
