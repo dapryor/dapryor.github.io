@@ -361,14 +361,14 @@ h2 {
   font-family: 'Open Sans', sans-serif; }
 
 .header {
-  background-color: #FF5454;
-  background: -webkit-linear-gradient(bottom, #ff7676, #FF5454);
+  background-color: #d94343;
+  background: -webkit-linear-gradient(bottom, #e06868, #d94343);
   /*Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(top, #ff7676, #FF5454);
+  background: -o-linear-gradient(top, #e06868, #d94343);
   /* For Opera 11.1 0 */
-  background: -moz-linear-gradient(top, #ff7676, #FF5454);
+  background: -moz-linear-gradient(top, #e06868, #d94343);
   /* Firefox 3.6 to 15 */
-  background: linear-gradient(to top, #ff7676, #FF5454);
+  background: linear-gradient(to top, #e06868, #d94343);
   /* Standard syntax */
   height: 100vh;
   background-size: cover;
