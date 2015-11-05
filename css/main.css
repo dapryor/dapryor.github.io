@@ -4,6 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Kaushan+Script);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -356,8 +357,8 @@ td,
 th {
   padding: 0; }
 
-html {
-  font: helvetica, sans-serif; }
+h2 {
+  font-family: 'Open Sans', sans-serif; }
 
 .header {
   background-color: #FF5454;
@@ -381,6 +382,7 @@ html {
 
 .title {
   font-size: 60px;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Kaushan Script', cursive; }
 
 /*# sourceMappingURL=main.css.map */
