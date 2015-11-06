@@ -7,15 +7,20 @@
 }
 
 header {
-    @include linear-gradient(bottom, #e06868, #fefefe);
+    @include linear-gradient(bottom, $base-background-color, #e06868);
     height: 100vh;
-    background-size: cover;
-    margin-bottom: 50px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+
+article{
+    @include linear-gradient(top, #fff, #e06868);
+    height: 100vh;
+    display: flex;
     color: white;
 }
 
