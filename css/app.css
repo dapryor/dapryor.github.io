@@ -666,8 +666,9 @@ header .container::after {
 
 header .container .logo {
   background-color: #777;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
   margin: 10px 0px 0px 10px;
   float: left;
 }
@@ -719,4 +720,61 @@ header .container .kicker {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   line-height: 1;
+}
+
+footer {
+  background-color: #F39662;
+  background-image: -webkit-linear-gradient(bottom, #F39662, #D0837F);
+  background-image: linear-gradient(to top,#F39662, #D0837F, , , , , , , , );
+  clip: rect(400px, 0, 200px, 0);
+  height: 100px;
+  background-size: cover;
+}
+
+footer .lockup {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer .lockup::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+footer .lockup .logo {
+  background-color: #777;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: 10px 0px 0px 10px;
+}
+
+footer .lockup span {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .lockup span nav a {
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer .lockup span nav a:hover {
+  color: white;
+}
+
+footer .lockup span p.copyright {
+  padding-left: 30px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 15px;
+  font-weight: 700;
+  font-clear: both;
+  text-transform: uppercase;
 }

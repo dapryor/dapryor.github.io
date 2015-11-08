@@ -8,7 +8,8 @@ header
         .logo
 
             background-color: #777
-            +size(100px)
+            +size(50px)
+            border-radius: 50px
             margin: 10px 0px 0px 10px
             float: left
 
@@ -55,3 +56,44 @@ header
             letter-spacing: 0.1em
             text-transform: uppercase
             line-height: 1
+
+
+footer
+    @include linear-gradient(to top, #F39662, #D0837F)
+    clip: rect(400px, 0, 200px, 0);
+
+    height: 100px
+    background-size: cover
+
+    .lockup
+        @include outer-container
+        display: flex
+        justify-content: center
+        .logo
+            background-color: #777
+            +size(50px)
+            border-radius: 50px
+            margin: 10px 0px 0px 10px
+
+        span
+            display: flex
+            flex-direction: column
+            nav
+                a
+                    color: rgba(255,255,255,0.5)
+                    padding-left: 30px
+                    font:
+                        size: 20px
+                        weight: 700
+                    text-transform: uppercase
+
+                    &:hover
+                        color: rgba(255,255,255,1)
+            p.copyright
+                padding-left: 30px
+                color: rgba(255,255,255,0.3)
+                font:
+                        size: 15px
+                        weight: 700
+                        clear: both
+                text-transform: uppercase
