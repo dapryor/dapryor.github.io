@@ -647,37 +647,22 @@ picture {
 }
 
 header {
-  background: -webkit-linear-gradient(bottom, #DB4B4B, #e06868);
-  /*Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom, #DB4B4B, #e06868);
-  /* For Opera 11.1 0 */
-  background: -moz-linear-gradient(bottom, #DB4B4B, #e06868);
-  /* Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom, #DB4B4B, #e06868);
-  /* Standard syntax */
+  background-color: black;
+  background-color: #DB4B4B;
+  background-image: -webkit-linear-gradient(top, #DB4B4B 0%, #e06868 100%);
+  background-image: linear-gradient(to bottom,#DB4B4B 0%, #e06868 100%, , , , , , , , );
   height: 100vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   color: white;
 }
 
-article {
-  background: -webkit-linear-gradient(top, #fff, #e06868);
-  /*Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(top, #fff, #e06868);
-  /* For Opera 11.1 0 */
-  background: -moz-linear-gradient(top, #fff, #e06868);
-  /* Firefox 3.6 to 15 */
-  background: linear-gradient(to top, #fff, #e06868);
-  /* Standard syntax */
-  height: 100vh;
-  display: flex;
-  color: white;
-}
-
-.title {
-  font-size: 60px;
+header a {
+  color: rbga(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 700;
+  float: right;
+  margin-left: 20px;
+  padding: 30px, 30 px;
 }
