@@ -647,22 +647,59 @@ picture {
 }
 
 header {
-  background-color: black;
-  background-color: #DB4B4B;
-  background-image: -webkit-linear-gradient(top, #DB4B4B 0%, #e06868 100%);
-  background-image: linear-gradient(to bottom,#DB4B4B 0%, #e06868 100%, , , , , , , , );
+  background-color: #555;
   height: 100vh;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  color: white;
 }
 
-header a {
-  color: rbga(0, 0, 0, 0.7);
-  font-size: 14px;
-  font-weight: 700;
+header .logo {
+  background-color: #777;
+  height: 50px;
+  width: 50px;
+  margin: 10px auto auto 10px;
+  float: left;
+}
+
+header nav {
   float: right;
-  margin-left: 20px;
-  padding: 30px, 30 px;
+  margin: 30px 30px auto auto;
+}
+
+header nav a {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header nav a:hover {
+  color: black;
+}
+
+header h1 {
+  text-allign: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  clear: both;
+  padding-top: 100px;
+}
+
+header h1 span {
+  display: inline-block;
+  padding: 0.5em;
+  border: white solid 10px;
+}
+
+header .kicker {
+  text-allign: center;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1;
 }
