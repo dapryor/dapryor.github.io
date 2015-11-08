@@ -650,6 +650,7 @@ header {
   background: url(../../img/hero2.jpg);
   height: 100vh;
   background-size: cover;
+  margin-bottom: 20px;
 }
 
 header .container {
@@ -722,12 +723,36 @@ header .container .kicker {
   line-height: 1;
 }
 
+.body {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.body aritcle {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+}
+
+.body aritcle:last-child {
+  margin-right: 0;
+}
+
 footer {
   background-color: #F39662;
   background-image: -webkit-linear-gradient(bottom, #F39662, #D0837F);
   background-image: linear-gradient(to top,#F39662, #D0837F, , , , , , , , );
   height: 75px;
   background-size: cover;
+  margin-top: 20px;
 }
 
 footer .lockup {
