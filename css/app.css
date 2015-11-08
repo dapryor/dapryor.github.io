@@ -726,8 +726,7 @@ footer {
   background-color: #F39662;
   background-image: -webkit-linear-gradient(bottom, #F39662, #D0837F);
   background-image: linear-gradient(to top,#F39662, #D0837F, , , , , , , , );
-  clip: rect(400px, 0, 200px, 0);
-  height: 100px;
+  height: 75px;
   background-size: cover;
 }
 
@@ -761,7 +760,7 @@ footer .lockup span {
 footer .lockup span nav a {
   color: rgba(255, 255, 255, 0.5);
   padding-left: 30px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -773,7 +772,7 @@ footer .lockup span nav a:hover {
 footer .lockup span p.copyright {
   padding-left: 30px;
   color: rgba(255, 255, 255, 0.3);
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 700;
   font-clear: both;
   text-transform: uppercase;
