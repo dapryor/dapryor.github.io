@@ -567,7 +567,7 @@ header {
       content: "";
       display: table; }
     header .container .logo {
-      background-color: #777;
+      background-color: #777777;
       height: 50px;
       width: 50px;
       border-radius: 50px;
@@ -619,18 +619,25 @@ section {
     clear: both;
     content: "";
     display: table; }
-  section aritcle {
+  section article {
     float: left;
     display: block;
-    margin-right: 2.3576515979%;
-    width: 48.821174201%; }
-    section aritcle:last-child {
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    section article:last-child {
+      margin-right: 0; }
+  section aside {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    section aside:last-child {
       margin-right: 0; }
 
 footer {
-  background-color: #F39662;
-  background-image: -webkit-linear-gradient(bottom, #F39662, #D0837F);
-  background-image: linear-gradient(to top,#F39662, #D0837F);
+  background-color: #f39662;
+  background-image: -webkit-linear-gradient(bottom, #f39662, #d0837f);
+  background-image: linear-gradient(to top,#f39662, #d0837f);
   height: 75px;
   background-size: cover;
   margin-top: 20px; }
@@ -645,7 +652,7 @@ footer {
       content: "";
       display: table; }
     footer .lockup .logo {
-      background-color: #777;
+      background-color: #777777;
       height: 50px;
       width: 50px;
       border-radius: 50px;
@@ -668,3 +675,5 @@ footer {
         font-weight: 700;
         font-clear: both;
         text-transform: uppercase; }
+
+/*# sourceMappingURL=app.css.map */
