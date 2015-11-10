@@ -1,0 +1,39 @@
+footer
+    @include linear-gradient(to top, #F39662 , #D0837F)
+    height: 75px
+    background-size: cover
+    margin-top: 20px
+
+    .lockup
+        @include outer-container
+        display: flex
+        justify-content: center
+        .logo
+            background-color: #777
+            +size(50px)
+            border-radius: 50px
+            margin: 10px 0px 0px 10px
+
+        span
+            display: flex
+            flex-direction: column
+            margin: 20px 0px 0px 0px
+            nav
+                a
+                    color: rgba(255,255,255,0.5)
+                    padding-left: 30px
+                    font:
+                        size: 15px
+                        weight: 700
+                    text-transform: uppercase
+
+                    &:hover
+                        color: rgba(255,255,255,1)
+            p.copyright
+                padding-left: 30px
+                color: rgba(255,255,255,0.3)
+                font:
+                    size: 11px
+                    weight: 700
+                    clear: both
+                text-transform: uppercase
