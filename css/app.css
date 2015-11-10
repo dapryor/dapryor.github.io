@@ -647,7 +647,7 @@ picture {
 }
 
 header {
-  background: url(../../img/hero2.jpg);
+  background: url(../../img/hero3.jpg);
   height: 100vh;
   background-size: cover;
   margin-bottom: 20px;
@@ -681,7 +681,8 @@ header .container nav {
 
 header .container nav a {
   display: inline-block;
-  color: rgba(255, 255, 255, 0.5);
+  color: #333;
+  opacity: 0.5;
   padding-left: 30px;
   font-size: 20px;
   font-weight: 700;
@@ -689,12 +690,13 @@ header .container nav a {
 }
 
 header .container nav a:hover {
-  color: white;
+  color: #333;
+  opacity: 1;
 }
 
 header .container h1 {
   text-allign: center;
-  color: white;
+  color: #333;
   font-size: 40px;
   font-weight: 700;
   display: flex;
@@ -709,14 +711,14 @@ header .container h1 {
 header .container h1 span {
   justify-content: center;
   padding: 0.5em;
-  border: white solid 10px;
+  border: #00a478 solid 10px;
 }
 
 header .container .kicker {
   display: flex;
   justify-content: center;
   text-allign: center;
-  color: white;
+  color: #333;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -724,9 +726,9 @@ header .container .kicker {
 }
 
 footer {
-  background-color: #F39662;
-  background-image: -webkit-linear-gradient(bottom, #F39662, #D0837F);
-  background-image: linear-gradient(to top,#F39662, #D0837F, , , , , , , , );
+  background-color: #C5C5C5;
+  background-image: -webkit-linear-gradient(bottom, #C5C5C5, #E2E2E2);
+  background-image: linear-gradient(to top,#C5C5C5, #E2E2E2, , , , , , , , );
   height: 75px;
   background-size: cover;
   margin-top: 20px;
@@ -761,7 +763,8 @@ footer .lockup span {
 }
 
 footer .lockup span nav a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #333;
+  opacity: 0.5;
   padding-left: 30px;
   font-size: 15px;
   font-weight: 700;
@@ -769,12 +772,14 @@ footer .lockup span nav a {
 }
 
 footer .lockup span nav a:hover {
-  color: white;
+  color: #333;
+  opacity: 1;
 }
 
 footer .lockup span p.copyright {
   padding-left: 30px;
-  color: rgba(255, 255, 255, 0.3);
+  color: #333;
+  opacity: 0.3;
   font-size: 11px;
   font-weight: 700;
   font-clear: both;
