@@ -723,7 +723,7 @@ header .container .kicker {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   line-height: 1;
-  -webkit-text-stroke: 1px #E2E2E2;
+  -webkit-text-stroke: .005em #E2E2E2;
 }
 
 footer {
